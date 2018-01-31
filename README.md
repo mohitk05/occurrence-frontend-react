@@ -13,7 +13,7 @@ The input field performs checks on the data entered in it. It disables the 'Subm
 
 ### Modules used:
 * react [https://reactjs.org/]
-* axios [https://github.com/axios/axios]
+* axios [https://github.com/axios/axios] For fetching remote data.
 
 ### This is how the page looks:
 Homepage:
@@ -22,7 +22,12 @@ Characters not allowed:
 ![f2](https://user-images.githubusercontent.com/24852829/35640359-f5e58224-06e2-11e8-8422-cb370a32fea8.PNG)
 Spaces not allowed:
 ![f3](https://user-images.githubusercontent.com/24852829/35640360-f61aea90-06e2-11e8-95cc-82ca2b528dab.PNG)
-Only a whole number:
+Decimals not allowed:
+![f9](https://user-images.githubusercontent.com/24852829/35640755-2829b06a-06e4-11e8-84bb-fc6584af0d7d.PNG)
+Negative numbers not allowed:
+![f10](https://user-images.githubusercontent.com/24852829/35640756-2863ebae-06e4-11e8-9bb1-a61af3aa425d.PNG)
+
+#### Only a whole number:
 ![f5](https://user-images.githubusercontent.com/24852829/35640361-f6527294-06e2-11e8-9d44-794b73fd7891.PNG)
 Results displayed (include emails/websites as a whole):
 ![f6](https://user-images.githubusercontent.com/24852829/35640363-f68b4902-06e2-11e8-8efc-f5175dbc22d9.PNG)
