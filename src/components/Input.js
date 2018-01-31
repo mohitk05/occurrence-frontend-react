@@ -32,7 +32,7 @@ class Input extends Component {
         <input className="myInput" type="text" placeholder="Enter a number" onChange={e => this.changeState(e)}></input>
         <br/><span>{isNaN(this.state.input_num) ? error_msg : ''}</span>
         <br/>
-        <button className="button" disabled = {isNaN(this.state.input_num) | !this.state.input_num.trim().length} onClick={this.submitNumber.bind(this)}>Submit</button>
+        <button className="button" disabled = {!(/^\d+$/.test(this.state.input_num))} onClick={this.submitNumber.bind(this)}>Submit</button>
       </div>
     );
   }
