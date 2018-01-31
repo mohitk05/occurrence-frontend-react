@@ -16,5 +16,18 @@ The input field performs checks on the data entered in it. It disables the 'Subm
 * axios [https://github.com/axios/axios]
 
 ### This is how the page looks:
+Homepage:
+![f1](https://user-images.githubusercontent.com/24852829/35640358-f5ae2428-06e2-11e8-820a-3f48ffc7f248.PNG)
+Characters not allowed:
+![f2](https://user-images.githubusercontent.com/24852829/35640359-f5e58224-06e2-11e8-8422-cb370a32fea8.PNG)
+Spaces not allowed:
+![f3](https://user-images.githubusercontent.com/24852829/35640360-f61aea90-06e2-11e8-95cc-82ca2b528dab.PNG)
+Only a whole number:
+![f5](https://user-images.githubusercontent.com/24852829/35640361-f6527294-06e2-11e8-9d44-794b73fd7891.PNG)
+Results displayed (include emails/websites as a whole):
+![f6](https://user-images.githubusercontent.com/24852829/35640363-f68b4902-06e2-11e8-8efc-f5175dbc22d9.PNG)
+![f7](https://user-images.githubusercontent.com/24852829/35640364-f6c3a914-06e2-11e8-9a7e-cdb51b8c284f.PNG)
 
-  
+#### Results include phrases from website names and email (changes made in backend). This is the default setting:
+![f8](https://user-images.githubusercontent.com/24852829/35640365-f7043ac4-06e2-11e8-8357-060367842bbf.PNG)
+
