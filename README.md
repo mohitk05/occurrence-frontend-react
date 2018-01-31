@@ -1,6 +1,7 @@
 # occurrence-frontend-react
 
-App hosted on Heroku: [https://occ-node.herokuapp.com/]
+##### App hosted on Heroku: [https://occ-node.herokuapp.com/]
+
 This is the frontend app written in ReactJS for the occurence app. The occurrence app takes a value N as input and returns N most frequently occuring words from a text file.
 The React app contains a homepage which has an input field, a button and a table. 
 The view is formed by 4 components:
